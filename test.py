@@ -337,7 +337,7 @@ plt.text(recall[-1]/2, precision[-1]/2, 'AUPRC : ' + str(round(syu_AUPRC,3)), fo
 #plt.show()
 
 print('----------------------------------------')
-print("Diffential")
+print("Diffrential")
 print("AUPRC: ",syu_AUPRC - normal_AUPRC)
 print("F1: ", syu_f1 - normal_f1)
 print("AUC: ", syu_AUC - normal_AUC)
