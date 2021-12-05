@@ -3,4 +3,4 @@
 ## Caution: I removed all supplementary and unnecessary codes for better readability.<br/>
 
 ## Reference
-AnoGAN model(Code, keras): https://github.com/yjucho1/anoGAN
+AnoGAN model(Code, keras): https://github.com/tkwoo/anogan-keras
