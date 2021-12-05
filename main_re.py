@@ -13,14 +13,6 @@ import tensorflow as tf
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
-def make_TF_label(y_input, predict_input):
-    max_len = len(y_input)
-    output = []
-
-    for i in range(0,max_len):
-        output.append(y_input[i] == predict_input[i])
-
-
 def anomaly_detection(test_img, label = "3"):
     model = anogan.anomaly_detector(g_label = label, d_label=label)
 
