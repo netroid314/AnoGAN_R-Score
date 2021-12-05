@@ -8,7 +8,6 @@ from datetime import datetime
 import os
 import numpy as np
 
-import argparse
 import anogan
 import tensorflow as tf
 
@@ -75,7 +74,7 @@ true_list = []
 for idx in range(0,1000):
     img_size = math.floor(np.concatenate((X_test[idx]+1)**2).sum())**(1/2)
 
-    score= compute_anomaly_score(X_test[idx],['0','1','2','3','4','5','6','7','8','9'],img_size)
+    score= compute_anomaly_score(X_test[idx],['0','1','2','3','4','5','6','7','8','9'])
 
     score_list.append(score)
 
