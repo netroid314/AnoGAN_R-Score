@@ -12,7 +12,7 @@ other files are saved scores and model weights
 <br/>
 ## Caution: 
 Some files are not uploaded because of solving some kind of compatibility problem and file size problem.
-<br/>I removed all supplementary and unnecessary codes for better readability.
+<br/>I removed all supplementary and unnecessary codes for better readability. However it may (or not) cause malfunction. In that case, please make issue
 
 ## Reference
 AnoGAN model(Code, keras): https://github.com/tkwoo/anogan-keras
